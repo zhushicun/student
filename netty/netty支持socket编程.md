@@ -1,0 +1,4 @@
+netty支持socket编程
+
+在定义了bossgroup 和workergroup后，对于serverbootstrap中使用api的handler()是对bossgrop起作用，比如连接来了之后对于一些日志的输出，或者其他处理，对于childhandler则是对于bossgroup将连接请求扔给workgrouper后，对其的一些操作，比如说请求路径获取，参数获取，日志打印等等。
+
